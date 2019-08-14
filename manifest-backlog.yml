@@ -10,6 +10,3 @@ applications:
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
   services:
   - tracker-backlog-database
-
-
-  ./gradlew cloudNativeDeveloperDistributedSystemDeployment -PregistrationServerUrl=https://registration-pal-123456.apps.evans.pal.pivotal.io -PbacklogServerUrl=https://backlog-pal-123456.apps.evans.pal.pivotal.io -PallocationsServerUrl=https://allocations-pal-123456.apps.evans.pal.pivotal.io -PtimesheetsServerUrl=https://timesheets-pal-123456.apps.evans.pal.pivotal.io
