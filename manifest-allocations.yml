@@ -12,3 +12,4 @@ applications:
   - tracker-allocations-database
   - tracker-circuit-breaker-dashboard
   - tracker-sso
+  - tracker-config-server
